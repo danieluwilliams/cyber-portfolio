@@ -1,6 +1,6 @@
 # SIEM Investigation: Detecting Malicious IP Activity
 
-## 📌 Overview
+## Overview
 This project demonstrates how I used a SIEM tool (Splunk) to investigate suspicious activity, identify a malicious IP address, and trace related events such as file execution.
 
 The goal was to simulate a real-world security analysis workflow:
@@ -10,7 +10,7 @@ The goal was to simulate a real-world security analysis workflow:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Splunk (SIEM)
 - Log analysis
 - Event correlation
@@ -18,7 +18,7 @@ The goal was to simulate a real-world security analysis workflow:
 
 ---
 
-## 🔍 Investigation Steps
+## Investigation Steps
 
 ### 1. Initial Log Exploration
 - Queried indexed logs to identify unusual or suspicious activity
@@ -37,7 +37,7 @@ The goal was to simulate a real-world security analysis workflow:
   - Unusual access patterns
   - Unknown or external IP addresses
 
-📷 Evidence:  
+Evidence:  
 ![Malicious IP Detection](findingmaliciousipaddress.png)
 
 ---
@@ -46,7 +46,7 @@ The goal was to simulate a real-world security analysis workflow:
 - Investigated events tied to the identified IP
 - Discovered execution of a suspicious `.exe` file
 
-📷 Evidence:  
+Evidence:  
 ![Malicious EXE Activity](maliciousExefilefromip.png)
 
 ---
@@ -57,14 +57,14 @@ The goal was to simulate a real-world security analysis workflow:
 
 ---
 
-## 🚨 Key Findings
+## Key Findings
 - A specific IP address was responsible for suspicious activity
 - That IP was associated with execution of a potentially malicious executable file
 - The behavior suggests unauthorized or harmful system interaction
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 - How to use Splunk to filter and analyze logs effectively
 - How to identify indicators of compromise (IOCs)
 - How to correlate events across logs to build a security narrative
@@ -72,13 +72,13 @@ The goal was to simulate a real-world security analysis workflow:
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 - Automate detection using alerts
 - Expand queries to detect similar patterns
 - Integrate threat intelligence feeds for IP reputation checks
 
 ---
 
-## 📬 Author
+## Author
 Daniel Williams  
 Aspiring Cybersecurity Analyst
